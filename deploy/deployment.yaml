@@ -17,6 +17,9 @@ spec:
           image: IMAGE_NAME_HERE
           ports:
             - containerPort: 8080
+          env:
+            - name: DATABASE_URI
+              value: "postgresql://userAF0:qtY7MmmMh0co7ifj@postgresql:5432/sampledb"
 ---
 apiVersion: v1
 kind: Service
