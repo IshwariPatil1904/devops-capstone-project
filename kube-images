@@ -1,0 +1,26 @@
+Image Name:	sha256:a2cb4213cddbc3cca65a1b21d45e74d34e6c86130fd5e696a4a126d3b47bd12e
+Docker Image:	image-registry.openshift-image-registry.svc:5000/sn-labs-ishwaripati1/accounts@sha256:a2cb4213cddbc3cca65a1b21d45e74d34e6c86130fd5e696a4a126d3b47bd12e
+Name:		sha256:a2cb4213cddbc3cca65a1b21d45e74d34e6c86130fd5e696a4a126d3b47bd12e
+Created:	10 minutes ago
+Annotations:	image.openshift.io/dockerLayersOrder=ascending
+		image.openshift.io/manifestBlobStored=true
+		openshift.io/image.managed=true
+Image Size:	73.14MB in 5 layers
+Layers:		31.83MB	sha256:b7b5a65d135c3262c1654369ce8010e59c3bba585d1e755f6f8ed3b64bff75c1
+		1.33MB	sha256:e210fde086c7eb4d2438d50e847cced74604c08f1586ba6e66c47df8f8321690
+		14.38MB	sha256:ff1596bd67053616e1bf4eebc31141a87e358882a4d193763f195454f64bf1bb
+		270B	sha256:2333a840e453172e08b913383a6f4006ec7a21ea36b69606fe4558741d112be5
+		25.6MB	sha256:bbf3c57c02e2dbeb27cce541795db790da749b5eef413886f42960aa4fe0f8f2
+Image Created:	11 minutes ago
+Author:		<none>
+Arch:		amd64
+Command:	gunicorn --bind 0.0.0.0:8080 service:app
+Working Dir:	/app
+User:		<none>
+Exposes Ports:	8080/tcp
+Docker Labels:	io.buildah.version=1.33.7
+Environment:	PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+		LANG=C.UTF-8
+		GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568
+		PYTHON_VERSION=3.9.25
+		PYTHON_SHA256=00e07d7c0f2f0cc002432d1ee84d2a40dae404a99303e3f97701c10966c91834
