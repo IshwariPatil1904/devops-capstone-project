@@ -1,0 +1,12 @@
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE     CONTAINERS   IMAGES                                                                             SELECTOR
+accounts   1/1     1            1           9m48s   accounts     image-registry.openshift-image-registry.svc:5000/sn-labs-ishwaripati1/accounts:1   app=accounts
+NAME                        READY   STATUS    RESTARTS   AGE
+accounts-667cb86d8f-qndc7   1/1     Running   0          5m2s
+NAME                  DESIRED   CURRENT   READY   AGE
+accounts-58749c7466   0         0         0       5m9s
+accounts-64d67b6f79   0         0         0       9m49s
+accounts-667cb86d8f   1         1         1       5m2s
+accounts-775bfcfdc    0         0         0       7m18s
+accounts-7984b848c5   0         0         0       6m44s
+NAME       TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)    AGE
+accounts   ClusterIP   172.21.60.34   <none>        8080/TCP   9m49s
